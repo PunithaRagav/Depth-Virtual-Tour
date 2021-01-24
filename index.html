@@ -26,8 +26,9 @@
 
     .dropdown-content {
         display: none;
+        border-radius: 5px;
         position: absolute;
-        background-color: #d19a7c;
+        background-color: #495057eb;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
@@ -37,11 +38,13 @@
         color: black;
         /* padding: 12px 16px; */
         text-decoration: none;
+        white-space: nowrap;
         display: block;
     }
 
     .dropdown-content a:hover {
-        background-color: #f1f1f1
+        background-color: #f1f1f1;
+        color: black;
     }
 
     .dropdown:hover .dropdown-content {
@@ -63,14 +66,24 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
 
-                    <li class="nav-item dropdown"><span class="nav-link js-scroll-trigger">Real Estate <i class="fa fa-caret-down"></i></span>
+                    <li class="nav-item dropdown"><span class="nav-link js-scroll-trigger">Real Estate <i
+                                class="fa fa-caret-down"></i></span>
                         <div class="dropdown-content">
-                            <a  class="nav-link js-scroll-trigger" href="#3D-Virtual-Tour">3D Virtual Tour</a>
-                            <a  class="nav-link js-scroll-trigger" href="#drone-Footage">Drone Footage    </a>
+                            <a class="nav-link js-scroll-trigger" href="#virtual-Tour">3D Virtual Tour</a>
+                            <a class="nav-link js-scroll-trigger" href="#drone-Footage">Drone Footage </a>
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Marketing</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Web Development</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#marketing">Marketing</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#web-Development">Web
+                            Development</a></li>
+                    <li class="nav-item dropdown"><span class="nav-link js-scroll-trigger">Company <i
+                                class="fa fa-caret-down"></i></span>
+                        <div class="dropdown-content">
+                            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                            <a class="nav-link js-scroll-trigger" href="#contact">Contact </a>
+                        </div>
+                    </li>
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li> -->
                 </ul>
@@ -90,13 +103,13 @@
         </div>
     </header>
     <!-- real-Estate-->
-    <section class="page-section" id="3D-Virtual-Tour">
+    <section class="page-section" id="virtual-Tour">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">3D Virtual Tour</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <!-- <h2 class="section-heading text-uppercase">3D Virtual Tour</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
             </div>
-            <div class="row text-center">
+            <!-- <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -124,17 +137,55 @@
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
                         architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- real-Estate-->
     <section class="page-section" id="drone-Footage">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Drone Footage</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <!-- <h2 class="section-heading text-uppercase">Drone Footage</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
             </div>
             <div class="row text-center">
+                <!-- <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">E-Commerce</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+                        architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Responsive Design</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+                        architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Web Security</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+                        architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- Blog-->
+    <section class="page-section" id="blog">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Blog</h2>
+                <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+            </div>
+            <!-- <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -162,18 +213,18 @@
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
                         architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- Portfolio Grid-->
-    <section class="page-section bg-light" id="portfolio">
+    <section class="page-section bg-light" id="marketing">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Marketing</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <!-- <h2 class="section-heading text-uppercase">Marketing</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
             </div>
             <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4">
+                <!-- <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
                             <div class="portfolio-hover">
@@ -214,8 +265,8 @@
                             <div class="portfolio-caption-subheading text-muted">Identity</div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                </div> -->
+                <!-- <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
                             <div class="portfolio-hover">
@@ -256,18 +307,18 @@
                             <div class="portfolio-caption-subheading text-muted">Photography</div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
     <!-- About-->
-    <section class="page-section" id="about">
+    <section class="page-section" id="web-Development">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Web Development</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <!-- <h2 class="section-heading text-uppercase">Web Development</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
             </div>
-            <ul class="timeline">
+            <!-- <ul class="timeline">
                 <li>
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
                             alt="" /></div>
@@ -339,17 +390,17 @@
                         </h4>
                     </div>
                 </li>
-            </ul>
+            </ul> -->
         </div>
     </section>
     <!-- Team-->
-    <section class="page-section bg-light" id="team">
+    <section class="page-section bg-light" id="about">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading text-uppercase">About</h2>
+                <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
@@ -380,7 +431,7 @@
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
                     <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
